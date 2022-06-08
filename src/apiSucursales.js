@@ -1,7 +1,11 @@
 let sucursales = new Map();
 
 const getSucursales = () => {
-    fetch('src/resources/sucursales.json').then(function (response) {
+    
+    const json = JSON.parse(sucursales);
+    agregarSucursales(data);
+
+    /*fetch('src/resources/sucursales.json').then(function (response) {
         // The API call was successful!
         return response.json();
     }).then(function (data) {
@@ -10,7 +14,7 @@ const getSucursales = () => {
     }).catch(function (err) {
         // There was an error
         console.warn('Something went wrong.', err);
-    });
+    });*/
 }
 
 
@@ -82,3 +86,33 @@ const agregarMarkerSucursal = (data) => {
     map.setCenter(lonLat, zoom);
 
 }
+
+const sucursales = '[
+    {
+        "id":1,
+        "sucursal": "San Miguel Centro",
+        "domicilio": "Av. Perón 1550",
+        "Lat": -34.542541,
+        "Lon": -58.711488,
+        "telefono": "11 3322 1144",
+        "email": "smcentro@vivero.com.ar"
+    },
+    {
+        "id":2,
+        "sucursal": "Muñiz",
+        "domicilio": "Av. Perón 880",
+        "Lat": -34.548002,
+        "Lon": -58.704152,
+        "telefono": "11 3322 2255",
+        "email": "muniz@vivero.com.ar"
+    },
+    {
+        "id":3,
+        "sucursal": "Bella Vista",
+        "domicilio": "Av. San Martín 1120",
+        "Lat": -34.559470,
+        "Lon": -58.683572,
+        "telefono": "11 3322 3366",
+        "email": "bellavista@vivero.com.ar"
+    }
+]';
