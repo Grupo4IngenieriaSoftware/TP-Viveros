@@ -1,0 +1,233 @@
+{
+    "items": [
+        {
+            "_id": "5bbbc16659879ccdbfbffe6d",
+            "dist": 6.4,
+            "lid": 4852,
+            "fid": 4852,
+            "int_number": 87572,
+            "name": "San Miguel",
+            "province": "Buenos Aires",
+            "lat": "-34.54426575",
+            "lon": "-58.74044037",
+            "zoom": "2",
+            "weather": {
+                "humidity": 71,
+                "pressure": 1009.8,
+                "st": null,
+                "visibility": 10,
+                "wind_speed": 22,
+                "id": 0,
+                "description": "Despejado",
+                "temp": 20,
+                "wing_deg": "Oeste",
+                "tempDesc": "20ºC"
+            },
+            "forecast": {
+                "_id": "598b8720f9a90f9a3d4707e4",
+                "timestamp": "1588942802000",
+                "date_time": "2022-05-08 17:30",
+                "location_id": 4852,
+                "forecast": {
+                    "0": {
+                        "date": "2022-05-08",
+                        "temp_min": null,
+                        "temp_max": null,
+                        "temp_min_sub": null,
+                        "temp_noc": 17,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 2,
+                            "description": "Cielo algo a parcialmente nublado. Vientos  leves del sector este."
+                        },
+                        "afternoon": {
+                            "weather_id": 2,
+                            "description": "Cielo algo a parcialmente nublado. Vientos  leves del sector este."
+                        }
+                    },
+                    "1": {
+                        "date": "2022-05-09",
+                        "temp_min": 15,
+                        "temp_max": 18,
+                        "temp_min_sub": null,
+                        "temp_noc": null,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 18,
+                            "description": "Cielo parcialmente nublado a nublado. Probabilidad neblinas especialmente en la zona suburbana. Tiempo desmejorando,  con probabilidad de lluvias  y algunas tormentas. Vientos moderados del sector este."
+                        },
+                        "afternoon": {
+                            "weather_id": 4,
+                            "description": "Cielo nublado. Probabilidad de lluvias y tormentas. Vientos   leves del sector este."
+                        }
+                    },
+                    "2": {
+                        "date": "2022-05-10",
+                        "temp_min": 14,
+                        "temp_max": 20,
+                        "temp_min_sub": null,
+                        "temp_noc": null,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 4,
+                            "description": "Nubosidad variable. Probabilidad de lluvias y algunas tormentas.  Mejorando temporariamente. Vientos leves del sector oeste,  cambiando a moderados del sudoeste,  con ráfagas.  "
+                        },
+                        "afternoon": {
+                            "weather_id": 11,
+                            "description": "Nubosidad variable. Probabilidad chaparrones. Vientos moderados a leves  del sudoeste."
+                        }
+                    },
+                    "3": {
+                        "date": "2022-05-11",
+                        "temp_min": 9,
+                        "temp_max": 18,
+                        "temp_min_sub": null,
+                        "temp_noc": null,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 1,
+                            "description": "Cielo parcial a algo nublado. Vientos leves del sudoeste. "
+                        },
+                        "afternoon": {
+                            "weather_id": 1,
+                            "description": "Cielo algo nublado. Vientos leves del sector oeste. "
+                        }
+                    },
+                    "4": {
+                        "date": "2022-05-12",
+                        "temp_min": 11,
+                        "temp_max": 19,
+                        "temp_min_sub": null,
+                        "temp_noc": null,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 1,
+                            "description": "Cielo algo nublado. Vientos leves del sector oeste. "
+                        },
+                        "afternoon": {
+                            "weather_id": 1,
+                            "description": "Cielo algo nublado. Vientos leves del sector oeste. "
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "_id": "5bbbc16659879ccdbfbffe6e",
+            "dist": 6.4,
+            "lid": 4852,
+            "fid": 4852,
+            "int_number": 87572,
+            "name": "Jose C. Paz",
+            "province": "Buenos Aires",
+            "lat": "-34.54426575",
+            "lon": "-58.74044037",
+            "zoom": "2",
+            "weather": {
+                "humidity": 71,
+                "pressure": 1009.8,
+                "st": null,
+                "visibility": 10,
+                "wind_speed": 22,
+                "id": 0,
+                "description": "Despejado",
+                "temp": 20,
+                "wing_deg": "Oeste",
+                "tempDesc": "20ºC"
+            },
+            "forecast": {
+                "_id": "598b8720f9a90f9a3d4707e4",
+                "timestamp": "1588942802000",
+                "date_time": "2022-05-08 17:30",
+                "location_id": 4852,
+                "forecast": {
+                    "0": {
+                        "date": "2022-05-08",
+                        "temp_min": null,
+                        "temp_max": null,
+                        "temp_min_sub": null,
+                        "temp_noc": 17,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 2,
+                            "description": "Cielo algo a parcialmente nublado. Vientos  leves del sector este."
+                        },
+                        "afternoon": {
+                            "weather_id": 2,
+                            "description": "Cielo algo a parcialmente nublado. Vientos  leves del sector este."
+                        }
+                    },
+                    "1": {
+                        "date": "2022-05-09",
+                        "temp_min": 15,
+                        "temp_max": 18,
+                        "temp_min_sub": null,
+                        "temp_noc": null,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 18,
+                            "description": "Cielo parcialmente nublado a nublado. Probabilidad neblinas especialmente en la zona suburbana. Tiempo desmejorando,  con probabilidad de lluvias  y algunas tormentas. Vientos moderados del sector este."
+                        },
+                        "afternoon": {
+                            "weather_id": 4,
+                            "description": "Cielo nublado. Probabilidad de lluvias y tormentas. Vientos   leves del sector este."
+                        }
+                    },
+                    "2": {
+                        "date": "2022-05-10",
+                        "temp_min": 14,
+                        "temp_max": 20,
+                        "temp_min_sub": null,
+                        "temp_noc": null,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 4,
+                            "description": "Nubosidad variable. Probabilidad de lluvias y algunas tormentas.  Mejorando temporariamente. Vientos leves del sector oeste,  cambiando a moderados del sudoeste,  con ráfagas.  "
+                        },
+                        "afternoon": {
+                            "weather_id": 11,
+                            "description": "Nubosidad variable. Probabilidad chaparrones. Vientos moderados a leves  del sudoeste."
+                        }
+                    },
+                    "3": {
+                        "date": "2022-05-11",
+                        "temp_min": 9,
+                        "temp_max": 18,
+                        "temp_min_sub": null,
+                        "temp_noc": null,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 1,
+                            "description": "Cielo parcial a algo nublado. Vientos leves del sudoeste. "
+                        },
+                        "afternoon": {
+                            "weather_id": 1,
+                            "description": "Cielo algo nublado. Vientos leves del sector oeste. "
+                        }
+                    },
+                    "4": {
+                        "date": "2022-05-12",
+                        "temp_min": 11,
+                        "temp_max": 19,
+                        "temp_min_sub": null,
+                        "temp_noc": null,
+                        "radiation": null,
+                        "morning": {
+                            "weather_id": 1,
+                            "description": "Cielo algo nublado. Vientos leves del sector oeste. "
+                        },
+                        "afternoon": {
+                            "weather_id": 1,
+                            "description": "Cielo algo nublado. Vientos leves del sector oeste. "
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "version": {
+        "id": "1.0",
+        "name": "sidekick",
+        "lastupdate": 1654620120030
+    }
+}
