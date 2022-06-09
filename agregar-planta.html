@@ -48,12 +48,12 @@
         <form action="planta-agregada.html">
             <div class="mb-3">
                 <label for="codigoPlanta" class="form-label">Código de planta</label>
-                <input type="text" class="form-control" id="codigoPlanta" placeholder="Código de planta">
+                <input type="number" class="form-control" id="codigoPlanta"  min="1000" max="99999" required placeholder="Código de planta">
             </div>
             <div class="mb-3">
                 <label for="codigoPlanta" class="form-label" id="estadoPlanta" >Estado de la planta</label>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Seleccionar</option>
+                <select class="form-select"  required aria-label="Default select example">
+                    <option ></option>
                     <option value="1">Experimento</option>
                     <option value="2">Disponible para la venta</option>
                     <option value="3">Proceso</option>
@@ -63,11 +63,11 @@
 
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" required minlength="10" maxlength="20" placeholder="name@example.com">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" required minlength="10" maxlength="200" rows="3"></textarea>
             </div>
             <button class="btn btn-success" type="submit">Agregar planta</button>
             <button class="btn btn-danger" type="reset">Limpiar formulario</button>
