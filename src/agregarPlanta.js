@@ -6,7 +6,7 @@ window.onload = () => {
     const familias=JSON.parse(familiasString);
      for(let i=0;i<familias.length;i++){
         const option=document.createElement("option");
-        option.innerText=familias[i]; 
+        option.innerText=familias[i].nombreComun; 
         formFamilia.appendChild(option);
      }
 }

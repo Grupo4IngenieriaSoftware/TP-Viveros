@@ -29,12 +29,9 @@ const cargarALocal=(valor)=>{
 //Alerta familia cargada con exito
 form.addEventListener("submit",(event)=>{
     const nombreComun= document.getElementById("nombreComun").value;
-    cargarALocal(nombreComun);
+    const imagen=UrlImagen;
+    cargarALocal({nombreComun,imagen});
     event.preventDefault();
-
-    //guardo imagen seleccionada en localstorage
-    localStorage.setItem("Imagen"+`${idImagen}`,UrlImagen);
-
     //creo alerta
     swal.fire({
     html:` <div class="container">
