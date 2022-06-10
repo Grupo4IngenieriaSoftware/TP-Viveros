@@ -1,5 +1,15 @@
 const form= document.getElementById("formFamilia");
 
+//variables para el id de las imagenes y para guardar la url de imagen
+let idImagen=0;
+let UrlImagen=""
+
+//Obtengo referencia al archivo y a la imagen
+const fotoParticular= document.getElementById("fotoParticular");
+const imagenPrevisualizacion= document.getElementById("imagenPrevisualizacion");
+
+
+
 const cargarALocal=(valor)=>{
     if(localStorage.getItem("familias")===null){
         console.log("No hay familias");
@@ -49,6 +59,7 @@ fotoParticular.addEventListener("change",(e) =>{
     UrlImagen=window.URL.createObjectURL(new Blob(binaryData), {type : 'images/png'});
     imagenPrevisualizacion.src=UrlImagen;
     console.log(UrlImagen)
-    imagenPrevisualizacion.style.width="400px";
+    imagenPrevisualizacion.style.width="200px";
+    imagenPrevisualizacion.style.marginTop="24px";
 });
 
