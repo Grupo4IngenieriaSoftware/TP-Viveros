@@ -43,40 +43,61 @@
             </div>
         </div>
     </nav>
-    <!-- formulario de agregar planta -->
+    <!-- formulario de agregar familia -->
     <div class="container">
-        <h3>Agregar una planta</h3>
-        <form id="formPlanta">
+        <h3>Agregar una fAMILIA</h3>
+        <form  id="formFamilia">
             <div class="mb-3">
-                <label for="codigoPlanta" class="form-label">Código de planta</label>
-                <input type="number" class="form-control" id="codigoPlanta"  min="1000" max="99999" required placeholder="Código de planta">
+                <label for="nombreComun" class="form-label">Nombre común</label>
+                <input type="text" class="form-control" id="nombreComun" required placeholder="Nombre Común">
             </div>
             <div class="mb-3">
-                <label for="codigoPlanta" class="form-label" id="estadoPlanta" >Estado de la planta</label>
-                <select class="form-select"  required aria-label="Default select example">
-                    <option ></option>
-                    <option value="1">Experimento</option>
-                    <option value="2">Disponible para la venta</option>
-                    <option value="3">Proceso</option>
-                    <option value="4">En lote</option>
-                </select>
+                <label for="nombreCientifico" class="form-label">Nombre cientifico</label>
+                <input type="text" class="form-control" id="nombreCientifico"  required placeholder="Nombre cientifico">
             </div>
-
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" required minlength="10" maxlength="20" placeholder="name@example.com">
+            <div class="row g-3 mb-3">
+                 <div class="col-auto ">
+                     <label for="Clase" class="form-label">Clase</label>
+                     <input type="text" class="form-control" id="Clase" required placeholder="Clase">
+                 </div>
+                 <div class="col-auto ">
+                     <label for="Color" class="form-label">Color</label>
+                     <input type="text" class="form-control" id="Color"  required placeholder="Color">
+                 </div>
+                 <div class="col-auto ">
+                     <label for="fruto" class="form-label">fruto</label>
+                      <input type="text" class="form-control" id="fruto" required placeholder="fruto">
+                 </div>
+            </div>
+            <div class="row g-3 mb-3">
+                <div class="col-auto ">
+                    <label for="cicloRiego" class="form-label">Ciclo de riego</label>
+                    <input type="text" class="form-control" id="cicloRiego"  required placeholder="Ciclo de riego">
+                </div>
+                <div class="col-auto ">
+                    <label for="temperaturaAmbiente" class="form-label">Temperatura ambiente</label>
+                    <input type="text" class="form-control" id="temperaturaAmbiente" required placeholder="Temperatura ambiente">
+                </div>   
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" required minlength="10" maxlength="200" rows="3"></textarea>
+                  <label for="foto" class="form-label">Foto particular</label>
+                  <input type="file" class="form-control" id="fotoParticular" placeholder="Foto particular">
+                  <img id="imagenPrevisualizacion">
             </div>
             <button class="btn btn-success" type="submit">Agregar planta</button>
-            <button class="btn btn-danger" type="reset">Limpiar formulario</button>
         </form>
     </div>
 </body>
 
-<script src="src/agregarPlanta.js"></script>
+
+<script src="src/agregarFamilia.js"></script>
 <script src="https://unpkg.com/sweetalert2@9.5.3/dist/sweetalert2.all.min.js"></script>
+
+
+<!--Los campos requeridos para agregar una planta son:
+la familia (nombre comun, nombre cientifico, clase, color, fruto, foto representativa,cuidados necesarios que son ciclos de riego y temperatura ambiente),
+ información particular, ubicación en el vivero (fila y columna), código, foto particular(indicando su fase y edad), 
+ tipo de suelo que necesita(básico,ácido,neutro), 
+-->
 
 </html>
