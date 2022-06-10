@@ -1,5 +1,15 @@
 const form= document.getElementById("formPlanta");
 
+window.onload = () => {
+    const formFamilia= document.getElementById("familia");
+    const familiasString=localStorage.getItem("familias");
+    const familias=JSON.parse(familiasString);
+     for(let i=0;i<familias.length;i++){
+        const option=document.createElement("option");
+        option.innerText=familias[i]; 
+        formFamilia.appendChild(option);
+     }
+}
 //Alerta familia cargada con exito
 form.addEventListener("submit",(event)=>{
     event.preventDefault();
