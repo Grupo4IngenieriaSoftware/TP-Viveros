@@ -21,6 +21,11 @@ form.addEventListener("submit",(event)=>{
     const nombreComun= document.getElementById("nombreComun").value;
     cargarALocal(nombreComun);
     event.preventDefault();
+
+    //guardo imagen seleccionada en localstorage
+    localStorage.setItem("Imagen"+`${idImagen}`,UrlImagen);
+
+    //creo alerta
     swal.fire({
     html:` <div class="container">
            <h3>¡La familia ha sido agregada con exito!</h3>
@@ -32,3 +37,18 @@ form.addEventListener("submit",(event)=>{
    })
 
 })  
+
+
+// muestro en pantalla la imagen seleccionada
+fotoParticular.addEventListener("change",(e) =>{
+    e.preventDefault();
+    idImagen++;
+    const imagen= fotoParticular.files[0]
+    var binaryData = [];
+    binaryData.push(imagen);
+    UrlImagen=window.URL.createObjectURL(new Blob(binaryData), {type : 'images/png'});
+    imagenPrevisualizacion.src=UrlImagen;
+    console.log(UrlImagen)
+    imagenPrevisualizacion.style.width="400px";
+});
+
