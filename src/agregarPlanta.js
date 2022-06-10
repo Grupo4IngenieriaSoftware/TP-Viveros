@@ -1,6 +1,6 @@
 const form= document.getElementById("formPlanta");
 
-//Alerta familia cargada con exito
+//Alerta planta cargada con exito
 form.addEventListener("submit",(event)=>{
     event.preventDefault();
     swal.fire({
@@ -14,3 +14,4 @@ form.addEventListener("submit",(event)=>{
    })
 
 })  
+
