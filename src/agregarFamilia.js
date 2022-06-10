@@ -1,4 +1,4 @@
-const form= document.getElementById("form");
+const form= document.getElementById("formFamilia");
 
 //Alerta familia cargada con exito
 form.addEventListener("submit",(event)=>{

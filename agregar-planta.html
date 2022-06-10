@@ -28,6 +28,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="listado-plantas.html">Listado de plantas</a></li>
+                            <li><a class="dropdown-item" href="agregar-familia.html">Agregar una familia</a></li>
                             <li><a class="dropdown-item" href="agregar-planta.html">Agregar una planta</a></li>
                         </ul>
                     </li>
@@ -45,7 +46,7 @@
     <!-- formulario de agregar planta -->
     <div class="container">
         <h3>Agregar una planta</h3>
-        <form action="planta-agregada.html">
+        <form id="formPlanta">
             <div class="mb-3">
                 <label for="codigoPlanta" class="form-label">Código de planta</label>
                 <input type="number" class="form-control" id="codigoPlanta"  min="1000" max="99999" required placeholder="Código de planta">
