@@ -1,0 +1,123 @@
+.titleTemperatura {
+    margin-top: 20px;
+    color: #198754;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.titleTemperaturaCardview {
+    margin-top: 0px;
+    color: #198754;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+.subtitleDescripcion{
+    color:#636363;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitleDescripcionCardview{
+    color:#636363;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top:0px;
+    padding-top:0px;
+}
+
+.textDescriptionGray{
+    background-color: gray;
+    color:white;
+    margin:0px;
+    padding:10px;
+}
+
+.textDescriptionWhite{
+    background-color: rgb(223, 223, 223);
+    color:black;
+    margin:0px;
+    padding:10px;
+}
+
+.btn100 {
+    width: 100%;
+    margin-bottom:5px;
+}
+
+.temperaturaCardView{
+    background-color: #ebe8e8;
+}
+
+.cardModal .titleCardView{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    background-color: #198754;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.cardModal .card{
+    padding:0px;
+    border: 0px solid;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+    margin:10px;
+    padding-bottom:10px;
+    -webkit-box-shadow: 0px 0px 14px -8px #000000; 
+    box-shadow: 0px 0px 14px -8px #000000;
+}
+
+.cardModal .card-body{
+    padding:0px;
+}
+
+.cardModal .card-text{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.modal-header{
+    background-color: #198754;
+    color:white;
+    border-bottom: 0px solid;
+    -webkit-box-shadow: 0px -9px 26px 11px rgba(0,0,0,0.56); 
+    box-shadow: 0px -9px 26px 11px rgba(0,0,0,0.56);
+}
+
+.cardCiudad .card{
+    border-radius: 15px;
+    border:0px solid;
+    -webkit-box-shadow: 0px 0px 14px -8px #000000; 
+    box-shadow: 0px 0px 14px -8px #000000;
+}
+
+.cardCiudad .card-contenido{
+    padding:10px;
+}
+
+.cardCiudad .card-title{
+    background-color: #198754;
+    color:white;
+    margin:0px;
+    padding:10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.cardCiudad .card-body{
+    padding:0px;
+    border: 0px solid;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    
+}
