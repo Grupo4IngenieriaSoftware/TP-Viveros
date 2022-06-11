@@ -2,7 +2,7 @@ const form= document.getElementById("formFamilia");
 
 //variables para el id de las imagenes y para guardar la url de imagen
 let idImagen=0;
-let UrlImagen=""
+let UrlImagen="";
 
 //Obtengo referencia al archivo y a la imagen
 const fotoParticular= document.getElementById("fotoParticular");
