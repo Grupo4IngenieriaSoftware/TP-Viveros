@@ -2,28 +2,16 @@ const familiasDePlantas = `[
     {
         "familia":"Limonero",
         "imagen": "img/familias/limonero.jpg",
-<<<<<<< HEAD
         "cantidad" : "30"
-=======
-        "cantidad":13
->>>>>>> 9ce9490729c601007886a1bcdf3a08d21574c487
     }, 
     {
         "familia":"Naranjo",
         "imagen": "img/familias/naranjo.jpg",
-<<<<<<< HEAD
         "cantidad" : "15"
     }, {
         "familia":"Mandarino",
         "imagen": "img/familias/mandarino.jpg",
         "cantidad" : "66"
-=======
-        "cantidad":26
-    }, {
-        "familia":"Mandarino",
-        "imagen": "img/familias/mandarino.jpg",
-        "cantidad":39
->>>>>>> 9ce9490729c601007886a1bcdf3a08d21574c487
     }
     
 ]`;
@@ -50,11 +38,7 @@ const mostrarEnPantalla = (lista) => {
         <img src="${element.imagen}" class="card-img-top imagen" alt="...">
         <div class="card-body">
             <h5 class="card-title">${element.familia}</h5>
-<<<<<<< HEAD
             <p class="card-text">Cantidad : ${element.cantidad}</p>
-=======
-            <p class="card-text">Cantidad disponible: ${element.cantidad}</p>
->>>>>>> 9ce9490729c601007886a1bcdf3a08d21574c487
             <!--<a href="#" class="btn btn-primary"></a>-->
         </div>
         </div>`
