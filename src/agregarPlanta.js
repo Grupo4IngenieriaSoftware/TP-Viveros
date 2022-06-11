@@ -1,5 +1,5 @@
 const form= document.getElementById("formPlanta");
-
+const boton=document.getElementById("boton");
 window.onload = () => {
     const formFamilia= document.getElementById("familia");
     const familiasString=localStorage.getItem("familias");
@@ -10,6 +10,10 @@ window.onload = () => {
         formFamilia.appendChild(option);
      }
 }
+boton.addEventListener("click",(e)=>{
+   e.preventDefault();
+   window.location.href="agregar-familia.html";
+});
 //Alerta familia cargada con exito
 form.addEventListener("submit",(event)=>{
     event.preventDefault();

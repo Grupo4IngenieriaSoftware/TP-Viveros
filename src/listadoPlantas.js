@@ -1,14 +1,17 @@
 const familiasDePlantas =`[
     {
         "familia":"Limonero",
-        "imagen": "img/familias/limonero.jpg"
+        "imagen": "img/familias/limonero.jpg",
+        "cantidad" : "30"
     }, 
     {
         "familia":"Naranjo",
-        "imagen": "img/familias/naranjo.jpg"
+        "imagen": "img/familias/naranjo.jpg",
+        "cantidad" : "15"
     }, {
         "familia":"Mandarino",
-        "imagen": "img/familias/mandarino.jpg"
+        "imagen": "img/familias/mandarino.jpg",
+        "cantidad" : "66"
     }
     
 ]`;
@@ -27,7 +30,7 @@ const mostrarEnPantalla = (lista) => {
         <img src="${element.imagen}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${element.familia}</h5>
-            <!--<p class="card-text">Arboles de limones</p>-->
+            <p class="card-text">Cantidad : ${element.cantidad}</p>
             <!--<a href="#" class="btn btn-primary"></a>-->
         </div>
         </div>`

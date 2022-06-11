@@ -39,7 +39,6 @@
                         <a class="nav-link" aria-current="page" href="clima.html">El Clima</a>
                     </li>
                 </ul>
-                <a class="btn btn-warning" href="#">Cerrar sesión</a>
             </div>
         </div>
     </nav>
@@ -52,10 +51,76 @@
                 <input type="number" class="form-control" id="codigoPlanta"  min="1000" max="99999" required placeholder="Código de planta">
             </div>
             <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Informacion Particular</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" required minlength="10" maxlength="200" rows="3"></textarea>
+            </div>
+            <div class="mb-3 row">
+                <label for="codigoPlanta" class="form-label" id="estadoPlanta" >Ubicacion de la planta</label>
+                <select class="form-select "  style="max-width: 40px;margin-left: 50px;" required aria-label="Default select example">
+                    <optgroup label="Selecciona una fila">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    </optgroup>
+                </select>
+                <select class="form-select" style="max-width: 40px;margin-left: 50px;" required aria-label="Default select example">
+                    <optgroup label="Selecciona una columna">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="mb-3 row">
+                <label for="codigoPlanta" class="form-label" id="estadoPlanta" >Fase</label>
+                <select class="form-select " style="max-width: 40px;margin-left: 50px;" required aria-label="Default select example">
+                    <optgroup label="Selecciona una fase">
+                    <option></option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="codigoPlanta" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="codigoPlanta"  min="0" max="99" required placeholder="Edad">
+            </div>
+            <div class="mb-3">
+                <label for="foto" class="form-label">Foto particular</label>
+                <input type="file" class="form-control" id="fotoParticular" placeholder="Foto particular">
+                <img id="imagenPrevisualizacion">
+            </div>
+            <div class="mb-3">
                 <label for="codigoPlanta" class="form-label" id="estadoPlanta" >Familia de la planta</label>
                 <select id="familia" class="form-select"  required aria-label="Default select example">
                     <option ></option>
                 </select>
+                <button class="btn btn-success" id="boton" type="submit">Agregar familia</button>
             </div>
             <div class="mb-3">
                 <label for="codigoPlanta" class="form-label" id="estadoPlanta" >Estado de la planta</label>
@@ -67,14 +132,15 @@
                     <option value="4">En lote</option>
                 </select>
             </div>
-
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" required minlength="10" maxlength="20" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" required minlength="10" maxlength="200" rows="3"></textarea>
+            <div class="mb-3 row">
+                <label for="codigoPlanta" class="form-label" id="estadoPlanta" >Tipo de Suelo</label>
+                <select class="form-select " style="max-width: 40px;margin-left: 50px;" required aria-label="Default select example">
+                    <optgroup label="Selecciona una tipo de suelo">
+                    <option>Basico</option>
+                    <option>Acido</option>
+                    <option>Neutro</option>
+                    </optgroup>
+                </select>
             </div>
             <button class="btn btn-success" type="submit">Agregar planta</button>
             <button class="btn btn-danger" type="reset">Limpiar formulario</button>
