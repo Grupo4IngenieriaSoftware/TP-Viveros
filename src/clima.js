@@ -140,7 +140,7 @@ const agregarBotonAlerta = (alerta) => {
     nuevoElemento = "";
     listaAlertas.forEach(element => {
         alertaMapa.set(element._id, element);
-        nuevoElemento += "<div><button type='button' onclick=(abrirModalAlerta('" + element._id + "')) class='btn btn-success btn100' data-bs-toggle='modal' data-bs-target='#modalAlerta'>" + element.title + "</button></div>";//<button onclick=(abrirModalId("${objetoClima._id}")) class="btn btn-success btn100" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Pronóstico extendido</button>
+        nuevoElemento += "<div><button type='button' onclick=(abrirModalAlerta('" + element._id + "')) class='btn btn-success btn100' data-bs-toggle='modal' data-bs-target='#modalAlerta'>" + element.title + "</button></div>";
     });
     return nuevoElemento;
 }
